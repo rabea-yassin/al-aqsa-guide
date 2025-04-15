@@ -1,71 +1,69 @@
-# Getting Started with Create React App
+# 🕌 دليلك للأقصى — Your Guide to Al-Aqsa
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**An offline, visual navigation app for visitors of Al-Aqsa Mosque.**  
+Built with React for a hackathon project to support on-site guidance without relying on GPS or internet.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📱 What It Does
 
-### `npm start`
+This app helps visitors navigate inside the Al-Aqsa Mosque and surrounding alleys by using:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🧭 Step-by-step **image-based directions**
+- 🏛️ **Landmark info** along the way
+- 📷 A visual-based **location finder**
+- 📵 Works **completely offline**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 💡 Why We Built It
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+During religious occasions, Al-Aqsa gets incredibly crowded — GPS becomes unreliable, and internet access is limited.
 
-### `npm run build`
+This app solves that by guiding users **offline**, using:
+- Photos of familiar landmarks
+- Pre-loaded directions
+- No need for maps or data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🌐 Live Demo
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> (Optional) [Add a Netlify/Vercel demo link here]
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Tech Stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **React.js** with `react-router-dom`
+- CSS-only mobile layout simulation
+- Handled all logic using basic `useState` and routing
+- Placeholder images (to be replaced later with real ones)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🧭 App Flow
 
-## Learn More
+1. **Welcome Screen** — Start navigation
+2. **Destination Selector** — Choose where you want to go
+3. **Location Finder** — Answer a visual question to find your current location
+4. **Offline Notice** — Inform users that GPS and internet aren’t needed
+5. **Step-by-Step Guide** — Swipe through image instructions
+6. **Landmark Popups** — Educational popups mid-route
+7. **Arrival Screen** — “You’ve reached your destination 🎉”
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📸 Screenshots
 
-### Code Splitting
+> Add screenshots here (optional)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ To Run Locally
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-"# al-aqsa-guide" 
+```bash
+git clone https://github.com/rabea-yassin/al-aqsa-guide
+cd al-aqsa-guide
+npm install
+npm start
